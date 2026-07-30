@@ -74,12 +74,12 @@ with open(data_file_path, 'r') as f:
         print('Receiver email is required')
 
 # Email Part & Sender details
-CLIENT_ID = "7db9bd2d-a6c2-4de3-9bfb-e9d8a84e57a5"
-CLIENT_SECRET = "ylI8Q~XebouTeKkGZ.dbBaCC2drZoVgUKFpfPbNM"
-TENANT_ID = "e0d4f0ff-16df-4da2-b17f-3026b80f7a32"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
+TENANT_ID = ""
 AUTHORITY = f"https://login.microsoftonline.com/{TENANT_ID}"
 SCOPES = ["https://graph.microsoft.com/.default"]
-SENDER_EMAIL = "donotreply@ukcybersecurity.co.uk"
+SENDER_EMAIL = ""
 
 # Get Access Token
 def get_access_token():
